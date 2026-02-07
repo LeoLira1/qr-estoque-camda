@@ -1,18 +1,3 @@
-# ============================================================
-# CÉLULA 1 - INSTALAR DEPENDÊNCIAS (rodar primeiro)
-# ============================================================
-# Cole este bloco inteiro em uma célula do Colab e execute
-
-!pip install streamlit qrcode[pil] Pillow pandas pyzbar reportlab -q
-!apt-get install -y libzbar0 -qq
-!npm install -g localtunnel -s
-
-# ============================================================
-# CÉLULA 2 - CRIAR O APP E RODAR (rodar depois da célula 1)
-# ============================================================
-# Cole este bloco inteiro em OUTRA célula do Colab e execute
-
-%%writefile qr_estoque.py
 """
 Sistema de Controle de Estoque com QR Code - CAMDA
 """
