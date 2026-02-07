@@ -1,0 +1,6 @@
+streamlit
+qrcode[pil]
+Pillow
+pandas
+pyzbar
+reportlab
